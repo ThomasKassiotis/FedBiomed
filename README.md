@@ -18,7 +18,7 @@ The extension created for FedBiomed in Node enables uploading multiple CSV files
 ## Researcher Side
 ### Preprocessing from Research Node
 
-Preprocessing occurs within our custom training plan, specifically in the **training_data** function. Researchers can access and modify sheet names, column details, and values. They also have the capability to create a new CSV file with selected features and save it directly on the node side. All the preprocessing can be done with the Pandas library.
+Preprocessing occurs within our custom training plan, specifically in the **training_data** function. Researchers can access and modify sheet names, column details, and values. They also have the capability to create a new CSV file with selected features and save it directly on the node side, all without requiring access to the actual data values. All the preprocessing can be done with the Pandas library.
 
 ```python
     def training_data(self):
