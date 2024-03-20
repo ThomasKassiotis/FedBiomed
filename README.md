@@ -1,5 +1,5 @@
 # Preprocessing from Researcher Node
-The extension created for FedBiomed in Node enables uploading multiple CSV files of varying row counts and features. It consolidates these files into a single Excel document with multiple sheets, each sheet representing a different CSV file. Researchers can access information about this comprehensive Excel file from their node.
+The extension created for FedBiomed in Node enables uploading multiple CSV files of varying row counts and features. It consolidates these files into a single Excel document with multiple sheets, each sheet representing a different CSV file. Researchers can perform data manipulation operations directly from their node, offering them the flexibility to modify and analyze the aggregated dataset structure without needing direct access to the underlying data values.
 
 ## Node Side
 ### Upload multiple csv files from a given directory (Option 7 - Safepolymed)
