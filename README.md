@@ -113,5 +113,5 @@ df1.drop(columns=['Sex'], inplace=True)
 output_csv_path = 'data/harmonized_files/harmonized.csv'
 df1.to_csv(output_csv_path, index=False)
 ```
-We created a new dataframe awith a new column titled Gender and assign new values by mapping from an existing column named Sex, where "Male" is represented by 0 and "Female" by 1.
+We created a new dataframe with a new column titled Gender and assign new values by mapping from an existing column named Sex, where "Male" is represented by 0 and "Female" by 1.
 ![alt text](/images/image-3.png)
