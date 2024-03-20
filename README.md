@@ -115,3 +115,6 @@ df1.to_csv(output_csv_path, index=False)
 ```
 We created a new dataframe with a new column titled Gender and assign new values by mapping from an existing column named Sex, where "Male" is represented by 0 and "Female" by 1.
 ![alt text](/images/image-3.png)
+
+### Safepolymed Pipeline
+![alt text](/images/Safepolymed.png)
